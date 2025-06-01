@@ -6,7 +6,7 @@ import os
 from dotenv import  load_dotenv
 load_dotenv()
 
-driver = webdriver.Edge()
+driver = webdriver.Chrome()
 
 
 @pytest.fixture(scope='class')
